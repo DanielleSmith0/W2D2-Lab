@@ -226,9 +226,15 @@ delete user.age;
 
 //Code here
 
-class Cat {
-  constructor(name, age, color)
+class Cat {constructor(name, age, color)
 }
+
+
+let cat = new Cat("Bella", 8, "maroon");
+
+console.log(cat.name);
+
+//Not printing, syntax error? "}"
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
@@ -239,6 +245,11 @@ class Cat {
 */
 
 //Code here
+
+class Wizard {constructor(name, age, favoriteSpell){
+  function castSpell
+}
+}
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
@@ -315,7 +326,8 @@ const colors = {
 
 //Code Here 
 
-
+const colorsCopy = {...colors}
+console.log(colorsCopy)
 
 /*
  Now use the spread operator to combine the following 2 objects into one. 
