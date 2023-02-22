@@ -203,7 +203,7 @@ user.name = newName;
 let newEmail = "bryan.smith@devmounta.in"
 user.email = newEmail;
 
-console.log(user);
+// console.log(user);
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
@@ -212,6 +212,9 @@ console.log(user);
 
 //Code Here
 
+delete user.age;
+
+// console.log(user);
 
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
@@ -223,7 +226,9 @@ console.log(user);
 
 //Code here
 
-
+class Cat {
+  constructor(name, age, color)
+}
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
